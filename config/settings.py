@@ -1,0 +1,1 @@
+RAW_CUSTOMER_FILE='/Users/neilbanerjee/Documents/Python Course/Pandas Practice/today_customers.csv'
