@@ -14,6 +14,7 @@ def main():
     validated_df=validate_data(clean_df)
     failed_rows=generate_report(validated_df)
     
+    
 
 if __name__ == "__main__":
     main()

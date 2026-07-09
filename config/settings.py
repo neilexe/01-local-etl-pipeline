@@ -1,1 +1,1 @@
-RAW_CUSTOMER_FILE='/Users/neilbanerjee/Documents/Python Course/Pandas Practice/today_customers.csv'
+RAW_CUSTOMER_FILE='/Users/neilbanerjee/Documents/Python Course/Pandas Practice/today_customers_2.csv'
