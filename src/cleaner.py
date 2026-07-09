@@ -20,9 +20,3 @@ def clean_data(raw_df):
 
 
     return working_df
-
-# if __name__ == "__main__":
-#     file_path="/Users/neilbanerjee/Documents/Python Course/Pandas Practice/today_customers.csv"
-#     raw_df=read_raw_data(file_path)
-#     print(raw_df.head())
-#     clean_data(raw_df)
