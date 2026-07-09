@@ -3,6 +3,7 @@ from src.reader import read_raw_data
 from src.cleaner import clean_data
 from src.validator import validate_data
 from src.reporter import generate_report
+from src.loader import export_to_local
 
 
 def main():
@@ -13,6 +14,7 @@ def main():
     clean_df=clean_data(raw_df)
     validated_df=validate_data(clean_df)
     failed_rows=generate_report(validated_df)
+    validated_file = export_to_local(validated_df)
     
 if __name__ == "__main__":
     main()

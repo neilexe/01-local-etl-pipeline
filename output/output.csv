@@ -1,0 +1,8 @@
+customer_id,name,city,age,salary,department,validation_errors
+1.0,John,Mumbai,21,10000,HR,
+2.0,Sarah,Mumbai,72,20000,Engineering,
+3.0,Mike,Bangalore,35,-1029,Finance,Duplicate Customer ID | Salary cannot be negative
+5.0,David,Chennai,-6,40000,Engineering,Age cannot be negative
+,Leo,Hyderabad,-7,30000,Product,Customer ID is missing | Age cannot be negative | Invalid Department
+3.0,Chris,Pune,20,60000,HR,Duplicate Customer ID
+4.0,Bablu,Digha,30,29000,Housekeeping,Invalid Department
