@@ -13,8 +13,7 @@ def main():
     clean_df=clean_data(raw_df)
     validated_df=validate_data(clean_df)
     failed_rows=generate_report(validated_df)
+    print(failed_rows[["customer_id", "salary", "validation_errors"]])
     
-    
-
 if __name__ == "__main__":
     main()
